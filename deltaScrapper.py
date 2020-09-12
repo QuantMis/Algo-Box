@@ -15,7 +15,7 @@ class deltaScrapper:
         self.db = sqlite3.connect("scalper.db", check_same_thread=False)
 
     def initMongo(self)-> MongoClient:
-        mclient = MongoClient("103.75.188.210",username="admin",password="israa2608",authSource="admin")['hibee']
+        mclient = MongoClient("uri")["collection"]
         _log(f"mongoDB connection succesfull","info")
         return mclient
     
