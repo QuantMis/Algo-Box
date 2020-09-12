@@ -29,7 +29,7 @@ class scalper:
         return client 
 
     def initMongo(self)-> MongoClient:
-        mclient = MongoClient("103.75.188.210",username="admin",password="israa2608",authSource="admin")['hibee']
+        mclient = MongoClient("uri")["collection"]
         _log(f"mongoDB connection succesfull","info")
         return mclient
 
