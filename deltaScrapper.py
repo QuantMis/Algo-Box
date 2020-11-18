@@ -78,8 +78,8 @@ class deltaScrapper:
         return
 
 if __name__ == "__main__":
-    api_key = "7BmVqsyaPhOJgK0FAWagw8lc9NjitPcq30W3oGhZlzKi4sPJMFcgHAP22Utr04JO"
-    secret_key = "tdt3IoSekJwGf2f8UCY7rWS8ygDJOMuKY6eLYJuQLFb5POPJ0X3YOlCtO6hhZYil"
+    api_key = ""
+    secret_key = ""
     deltaScrapper = deltaScrapper(api_key=api_key, secret_key=secret_key)
     while True:
         deltaScrapper.run()
